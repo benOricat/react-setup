@@ -24,6 +24,7 @@ source/json/lang/
 .AppleDouble
 .LSOverride
 
+dist
 bin
 tmp
 temp
