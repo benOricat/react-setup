@@ -1,6 +1,7 @@
 {
-  "presets":[["@babel/preset-env",{
-    "targets":[
+  "presets": [
+    ["@babel/preset-env", {
+    "targets": [
       "last 2 versions",
       "not dead",
       "not < 2%",
@@ -8,10 +9,12 @@
     ],
     "useBuiltIns": "entry"
   }],
-    "@babel/preset-react"],
+  "@babel/preset-react"
+  ],
   "plugins": [
     "react-hot-loader/babel",
-    "@babel/plugin-proposal-class-properties"
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-dynamic-import"
   ],
   "env": {
     "test": {
